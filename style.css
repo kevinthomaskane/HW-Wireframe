@@ -1,13 +1,16 @@
 body{
     padding: 0px;
     margin: 0px;
-    height: 100%;
+  
 
 }
 
 hr {
     margin: 0px;
     padding: 0px;
+    height: 3px;
+    background-color: #b0bec5;
+    border: 0px;
 }
 
 .header{
@@ -23,13 +26,21 @@ hr {
 .header-links{
     float: right;
     padding-right: 10px;
+    color: #777;
+    font-size: 18px;
 }
 #name{
-    background-color: teal;
+    background-color: #26c6da;
     float: left;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+h1, h2{
+    color: #26c6da;
 }
 
 
@@ -39,7 +50,7 @@ hr {
 }
 
 #background{
-    background-color: #ebebeb;
+    background-image: url("https://i.stack.imgur.com/xfn1X.jpg");
     position:absolute;
     top:90px;
     bottom:70px;
@@ -55,8 +66,8 @@ hr {
 }
 
 #cat{
-    height: 100px;
-    width: 150px;
+    height: 150px;
+    width: 200px;
     padding: 5px;
     padding-right: 20px;
     float: left;
@@ -67,11 +78,16 @@ hr {
     width: 630px;
     /* margin-right: 10px; */
     padding: 20px;
+    background-color: white;
+    color: #455a64;
+    line-height: 35px;
 }
 #side-bar{
     float: right;
     width: 230px;
     padding: 20px;
+    background-color: white;
+    
 }
 
 .connectImage{
@@ -86,10 +102,6 @@ hr {
    padding-bottom: 10px;
 }
 
-#bottomLine{
-    border-color: teal;
-    height: 5px;
-}
 
 .footer {
     position:fixed;
@@ -97,7 +109,7 @@ hr {
     bottom:0px;
     height:70px;
     width:100%;
-    background:#999;
+    background:#b0bec5;
     text-align: center;
  }
 
@@ -112,7 +124,7 @@ hr {
     bottom:70px;
     height:10px;
     width:100%;
-    background: teal;
+    background: #26c6da;
     
  }
 
