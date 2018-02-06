@@ -1,0 +1,120 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+
+}
+
+hr {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    
+}
+.header-links{
+    float: right;
+    padding-right: 10px;
+}
+#name{
+    background-color: teal;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+
+#main-body{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#background{
+    background-color: #ebebeb;
+    position:absolute;
+    top:90px;
+    bottom:70px;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:-1;
+}
+
+.section {
+    border: solid 1px gray;
+    margin-top: 40px;
+}
+
+#cat{
+    height: 100px;
+    width: 150px;
+    padding: 5px;
+    padding-right: 20px;
+    float: left;
+}
+
+#about-me{
+    float: left;
+    width: 630px;
+    /* margin-right: 10px; */
+    padding: 20px;
+}
+#side-bar{
+    float: right;
+    width: 230px;
+    padding: 20px;
+}
+
+.connectImage{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+#images{
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+#bottomLine{
+    border-color: teal;
+    height: 5px;
+}
+
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:70px;
+    width:100%;
+    background:#999;
+    text-align: center;
+ }
+
+ .footer p{
+     height: 70px;
+     line-height: 70px;
+     text-align: bottom;
+ }
+ .footerLine {
+    position:fixed;
+    left:0px;
+    bottom:70px;
+    height:10px;
+    width:100%;
+    background: teal;
+    
+ }
+
+
+
