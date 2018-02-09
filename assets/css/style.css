@@ -4,7 +4,15 @@ body{
   
 
 }
+a.side {
+    text-decoration: none;
+    color: black;
+}
 
+a {
+    text-decoration: none;
+    color: white;
+}
 hr {
     margin: 0px;
     padding: 0px;
@@ -27,7 +35,6 @@ hr {
     float: right;
     padding-right: 10px;
     padding-left: 10px;
-   
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -42,7 +49,7 @@ hr {
     float: left;
     padding-left: 20px;
     padding-right: 20px;
-    color: white;
+    color: white !important;
     font-family: 'Arial';
     font-size: 32px;
 }
@@ -83,8 +90,9 @@ h1, h2{
 
 #about-me{
     float: left;
-    width: 630px;
     padding: 20px;
+    width: 630px !important;
+    
     background-color: white;
     color: #455a64;
     line-height: 35px;
@@ -143,4 +151,15 @@ h1, h2{
      clear: both;
  }
 
+ input{
+     width: 100%;
+     padding-top: 0;
+     margin-top: 0;
+ }
+
+ .message{
+     line-height: 100px;
+     height: 100px;
+
+ }
 
