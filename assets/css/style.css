@@ -157,11 +157,9 @@ h1, h2{
      margin-top: 0;
  }
 
- .message{
-     line-height: 100px;
-     height: 100px;
-
- }
+textarea{
+    width: 100%;
+}
 
  .portfolio-image{
      display: inline-block;
